@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template ha\pagestyle{empty}s been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{Adobe Garamond Pro} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.7in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{8cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\pagestyle{empty}
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+% HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Stefan Cepko} % Your name at the top
+
+\vspace{0.4cm} % Extra whitespace after the large name at the top
+
+{
+\addfontfeature{LetterSpace=20.0}\fontsize{12.5}{15}\selectfont % Letter spacing and font size
+
+33 Lenox St {\large\textbullet} Worcester, MA {\large\textbullet} USA, 01602\\ % Your mailing address
+{\Large\Letter} cepko.s@husky.neu.edu \ {\Large\Mobilefone} (774) 922-3901\\
+\includegraphics[width=.17in]{GitHub-Mark-32px.png} github.com/cepko33 
+}
+
+\vspace{0.4cm}
+
+{\addfontfeature{LetterSpace=20.0}\fontsize{18}{18}\selectfont\scshape January --- June 2014}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{0cm}X}
+&\gray \textbf{September 2012 --- Present}\\
+&\gray \textbf{Northeastern University} \hfill Boston, MA\\
+& {\large\textbullet} Candidiate for a Bachelor of Science in Computer Science, 2017 \\
+& {\large\textbullet} College of Computer and Information Science\\
+& {\large\textbullet} Relevant Courses: Discrete Structures, Digital Logic Design\\
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{0cm}X}
+&\gray \textbf{September 2011 --- May 2012}\\
+&\gray \textbf{Massachusetts Academy of Math and Science WPI} \hfill Worcester, MA\\
+& {\large\textbullet} Senior year spent taking courses at Worcester Polytechnic Institute\\
+& {\large\textbullet} Graduated with honors\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	CS EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Programming Knowledge}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Python, Ruby, Haskell, C, Scheme, Java\\
+Operating Systems & GNU/Linux, Windows, Mac OSX\\
+Tools & SVN, Vim, Git, Zsh, SSH, Nginx \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{0cm}X}
+& \gray \textbf{Aereo} \hfill Boston, MA\\
+& \gray \textbf{Software Engineering Intern} \hfill Jan 2013 --- Aug 2013\\
+& {\large\textbullet} Developed a Python library for regression testing on proprietary hardware \\
+& {\large\textbullet} Performed  UX smoke testing and bug reporting\\
+
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{0cm}X}
+& \gray \textbf{EMC} \hfill Hopkinton, MA\\
+& \gray \textbf{Software Engineering Intern} \hfill May 2012 --- August 2012\\
+& {\large\textbullet} Designed a file parser in Python to document an existing codebase\\
+& {\large\textbullet} Improved a hardware interface written in C\\
+
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{0cm}X}
+& \gray \textbf{Sonian} \hfill Boston, MA\\
+& \gray \textbf{QA Automation Intern} \hfill January 2014 --- August 2014\\
+
+& {\large\textbullet} Wrote tests with Ruby/Cucumber to find errors in existing product\\
+& {\large\textbullet} Worked in a SCRUM team to delegate tasks and track progress\\
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Hobbies}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Interests & Music Programming, Big Data, System Testing\\
+Hobbies & Piano, Guitar, Rock Climbing
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+\end{center}
+
+\end{document}
