@@ -5,5 +5,5 @@
 xelatex resume.tex
 `````
 
-####Preview
-[resume jpeg](https://raw.githubusercontent.com/cepko33/Resume/master/resume.jpg)
+##Preview
+![resume jpeg](https://raw.githubusercontent.com/cepko33/Resume/master/resume.jpg)
