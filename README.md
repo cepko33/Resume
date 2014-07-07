@@ -1,4 +1,7 @@
-# (Stefan Cepko's
-Resume)[https://github.com/cepko33/Resume/blob/master/cv_6.pdf?raw=true]
+# [Resume](https://github.com/cepko33/Resume/blob/master/resume.pdf?raw=true) for
+Stefan Cepko
 
-
+####Manual Compilation (requires a full LaTeX installation):
+```
+xelatex resume.tex
+`````
