@@ -1,4 +1,4 @@
-# [Resume](https://github.com/cepko33/Resume/blob/master/resume.pdf?raw=true) for Stefan Cepko
+# [Resume in the Key of L](https://github.com/cepko33/Resume/blob/master/resume.pdf?raw=true)
 
 ####Manual Compilation (requires a full LaTeX installation):
 ```
