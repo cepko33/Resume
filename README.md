@@ -1,6 +1,6 @@
 # [Resume in the Key of STC](https://github.com/cepko33/Resume/blob/master/resume.pdf?raw=true)
 
-####Manual Compilation (requires a full LaTeX installation):
+####Manual Compilation (requires a full texlive installation):
 ```
 xelatex resume.tex
 `````
